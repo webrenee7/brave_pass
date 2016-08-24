@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{margin:0 auto; padding:0;}
+body{ font:12px SimSun;k}
+.left{ float:left;}
+.right{ float:right;}
+.clear{ clear:both;}
+ul,li{ list-style:none;}
+input,select,.download{ vertical-align:middle;}
+a{ text-decoration:none;}
+img{ border:menu none;}
+.center{ text-align:center;}
+.txt_r{ text-align:right;}
+.txt-indent{text-indent:2em;}
+.clearfix:after {
+    content: ".";             
+	display: block;            
+    height: 0; 
+	font-size:0;
+    clear: both;              
+    visibility: hidden;	     
+}
+.clearfix {display: inline-block;}   
+* html .clearfix {height:1%;}
+.clearfix {display: block;}
+.pt10{ padding-top:10px;}
+.pb10{ padding-bottom:10px;}
+.mb20{ margin-bottom:20px;}
+
+
+.index_page{ background:url(index_x.jpg) repeat-x;}
+.index_page_all{ width:1200px;}
+.index_page_one{ background:url(index_01.jpg) no-repeat; height:174px;}
+.index_page_two{ background:url(index_02.jpg) no-repeat; height:113px;}
+.index_page_three{ background:url(index_03.jpg) no-repeat; height:278px; position:relative;}
+.index_page_four{ padding-top:150px; height:50px;}
+.index_page_name{ width:194px; height:22px; line-height:22px; background:none; border:medium none; position:absolute; left:530px; top:77px;}
+.index_page_password{ width:194px; height:22px; line-height:22px; background:none; border:medium none; position:absolute; left:530px; top:120px;}
+.index_page_btn{ cursor:pointer; background:url(index_page_btn.jpg) no-repeat; height:30px; width:74px; border:medium none; position:absolute; left:530px; top:176px;}
+.index_page_four p{ text-align:center; line-height:20px; color:#666666;}
+
+/*未回答*/
+.page_top{ background:#0068b7 url(page_top.jpg) no-repeat bottom center; height:120px;}
+.page_fot{ background-color:#e7e6e1; line-height:40px; text-align:center; color:#666;}
+.page_center{ width:960px; padding-top:36px;}
+.page_nav a{ float:left; width:120px; height:34px; line-height:34px; text-align:center; background-color:#bfeafc; color:#000; border-right:1px solid #FFF;}
+.page_nav a.on{ color:#FFF; font-weight:bold; background-color:#0068b7;}
+.page_content{ border-top:3px solid #006dbb; border-left:1px solid #f2f2f2; border-right:1px solid #f2f2f2; border-bottom:none; background:url(content_bottom.jpg) no-repeat center bottom; padding-bottom:10px; padding-top:10px; min-height:500px; _height:500px;}
+.page_content table.question_table,.page_content .question_table td{ border:1px solid #f2f2f2; border-collapse:collapse;}
+.avatar{ width:60px; padding-top:20px;}
+.avatar img{ width:60px; height:60px;}
+.avatar p{ line-height:18px; padding:3px 2px; text-align:center;}
+.content_question{ background:url(question.jpg) no-repeat 10px 8px; line-height:20px; padding:10px 10px 0 36px; min-height:76px; _height:76px;}
+.w240{ width:240px;}
+.w430{ width:430px;}
+.date_quarry{ padding-left:45px; overflow:hidden; line-height:30px; color:#999;}
+.date_quarry_btn{ background:url(btn_bg.jpg) no-repeat; cursor:pointer; border:medium none; width:74px; height:28px;}
+.content_text{ padding-top:10px; text-align:center;}
+.content_text textarea{ width:794px; height:84px; resize:none; background:url(textarea.jpg) no-repeat; border:medium none;}
+.common_reply{ background:url(btn_bt_two.jpg) no-repeat; width:100px; height:28px; margin-left:35px; border:medium none; cursor:pointer;}
+
+.paging{ text-align:center; padding:15px 0px 30px 0; line-height:22px;}
+.paging a{ padding:2px 7px; border:1px solid #848484; margin-right:7px; color:#848484;}
+.paging .on{ color:#008ed2;border:1px solid #fff; font-weight:bold;}
+.paging a:hover{border:1px solid #fff; }
+.paging_mess{ color:#848484; padding-right:5px;}
+
+/*已回答*/
+.content_answer{ background:url(answer.jpg) no-repeat 10px 8px; line-height:20px; padding:10px 10px 0 36px; min-height:76px; _height:76px;}
+
+/*常见回复语*/
+.common_mark{ background:url(common_mark.jpg) no-repeat; color:#a1a1a1; line-height:32px; padding-left:110px;}
+.common_compile{ background:url(edit_btn.jpg) no-repeat; width:68px; height:28px; border:medium none; cursor:pointer;}
+.common_delete{ background:url(delete_btn.jpg) no-repeat; width:68px; height:28px; border:medium none; cursor:pointer;}
+.h54 td{ line-height:54px; border-bottom:1px solid #dddddd;}
+.h50 td{ line-height:50px; border-bottom:1px dotted #dddddd;}
+.common_list{ width:940px; border:1px solid #f2f2f2; margin-bottom:10px;}
+.last_h50 td{ line-height:50px; padding-bottom:15px;}
+
+/*弹窗*/
+.popup{ width:480px;}
+.popup_title{ background-color:#0168b7; font:16px/36px "Microsoft YaHei"; color:#FFF; text-align:center; position:relative; height:36px;}
+.popup_title .popup_btn{ width:20px; height:20px; border:medium none; background:url(popup_btn.jpg) no-repeat; cursor:pointer; position:absolute; top:8px; right:10px;}
+.popup_content{ background-color:#e0f4fd;}
+.popup_content textarea{ width:444px; height:240px; resize:none; margin-left:17px; margin-top:17px; border:medium none;}
+.popup_content .save_btn{ text-align:center; padding:20px;}
+
+/*add by liyandong*/
+.reply{ display: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

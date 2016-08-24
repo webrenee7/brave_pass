@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { font-size:20px; line-height:36px; font-family:"Microsoft Yahei","微软雅黑"; color:#5a5a5a; background-color:#ffffff;}
+*{ margin:0 auto; padding:0; }
+img{ border:medium none; outline:none; vertical-align:middle;}
+a{ text-decoration:none; }
+a:hover{ text-decoration:none;}
+input { border:medium none; outline:none;}
+.center { text-align:center;}
+ul, ol, li{ list-style:none;}
+.left{ float:left;}
+.right{ float:right;}
+.bold{ font-weight:bold;}
+.clear{ clear:both;}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+
+.page_top { background:url(/res/images/images_pc/top.jpg) no-repeat center top; width:100%; height:356px;}
+.page_cont { width:960px; padding:20px 0 160px}
+.page_btm { background-color:#000000; font-size:12px; line-height:22px; color:#999999; text-align:center; padding:10px 0;}
+.page_tit { font-size:22px; line-height:32px; color:#5b5c5d; text-indent:44px; padding:25px 10px;}
+.question_box {}
+.question_tit { background:url(/res/images/images_pc/question_tit.jpg) no-repeat; width:695px; height:134px; padding:153px 195px 0 70px; font-size:16px; line-height:30px; color:#696969; text-indent:32px;}
+.question_sml_tit { background: url(/res/images/images_pc/sml_tit.jpg) no-repeat; width:890px; height:58px; padding-left:70px; font-weight:bold; font-size:26px; line-height:58px; color:#fff;}
+.question_bg { background:url(/res/images/images_pc/question_bg.jpg) repeat-y; width:960px;} 
+.question { padding:20px 56px;}
+.num_bg { background:url(/res/images/images_pc/num_bg.jpg) no-repeat; width:57px; height:35px; font-size:20px; line-height:35px; color:#5a5a5a; text-align:center; display:inline-block;}
+.question_txt { padding:0 57px;}
+.question_txt .left { width:30px; margin-top:12px;}
+.question_txt .right { width:700px;}
+.border { width:940px; height:6px; background-color:#fafafa;}
+.question_btm { background: url(/res/images/images_pc/question_btm.jpg) no-repeat; width:960px; height:270px; padding-top:60px; text-align:center;}
+.page_turn a { display:inline-block; margin:0 3px;  font:18px; line-height:33px; color:#fff;}
+.page_turn .turn { background:url(/res/images/images_pc/turn01.jpg) no-repeat; width:71px; height:33px; margin:0 4px;}
+.page_turn .turn_num { background:url(/res/images/images_pc/turn02.jpg) no-repeat; width:33px; height:33px;}
+.page_turn .turn_num:hover, .page_turn .sele_num { background-image:url(/res/images/images_pc/turn03.jpg);}
+.page_btn_box { margin-bottom:48px;}
+.page_btn { background:url(/res/images/images_pc/btn.jpg) no-repeat; width:247px; height:55px; font:22px/51px '微软雅黑'; color:#fff; border:medium none; outline:none; cursor:pointer;}
+.question_num { font-size:24px;}
+.font18 { font-size:18px; color:#ff0303;}
+.normal { font-weight:normal;}
+.red { color:#ff0101;}
+

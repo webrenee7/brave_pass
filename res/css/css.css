@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font:14px/24px "Microsoft YaHei","微软雅黑"; color:#333; background-color:#fff; word-wrap:break-word;}
+*{ margin:0; padding:0;}
+a{ color:#333; text-decoration:none;}
+img{ border:medium none; vertical-align:middle;}
+textarea{ resize:none; vertical-align:middle;}
+input,select,textarea{ -webkit-appearance:none; border:medium none; background:none; outline:none; font:1em/normal "Microsoft YaHei","微软雅黑";}
+.btn{ cursor:pointer;}
+table{ width:100%; border-collapse:collapse;}
+.clearfix:after{ content:"."; display:block; clear:both; height:0; line-height:0; font-size:0; visibility:hidden;}
+/*左上角圆角*/table tr th:first-child,table tr:first-child td:first-child{ border-top-left-radius:4px;}
+/*右上角圆角*/table tr th:last-child,table tr:first-child td:last-child{ border-top-right-radius:4px;}
+/*左下角圆角*/table tr:last-child td:first-child{ border-bottom-left-radius:4px;}
+/*右下角圆角*/table tr:last-child td:last-child{ border-bottom-right-radius:4px;}
+
+/*绑定身份信息*/
+.bind_box{ width:96%; margin:0 auto;}
+.banner img,.notice img,.img_box img,.prize_img img{ width:100%;}
+.input_line{ height:48px; line-height:48px; border-bottom:1px solid #ccc; display:-webkit-box; font-weight:bold; padding:0 10px;}
+.input_line input[type="radio"]{ width:12px; height:12px; background:url(../images/radio.jpg) no-repeat; -webkit-background-size:100% 100%; margin:0 19px 0 5px; vertical-align:-1px;}
+.input_line input[type="radio"]:checked{ background:url(../images/radio_on.jpg) no-repeat; -webkit-background-size:100% 100%;}
+.input_line input[type="text"],.input_line select{ display:block; height:48px; line-height:48px; -webkit-box-flex:1; color:#333;}
+.input_line input[type="text"]{ margin-left:10px;}
+.input_line select{ margin-left:6px;}
+.input_line .blue{ color:#1456c7;}
+.input_line .tag{ margin-right:22px;}
+.submit_btn{ width:97%; margin:0 auto; padding:28px 0;}
+.submit_btn .btn,.prize_btn .btn{ width:100%; height:44px; background-color:#1456c7; color:#fff; font-weight:bold;}
+
+/*专题活动*/
+.active_box{ width:96%; margin:0 auto; background:url(../images/bg.jpg) no-repeat;}
+.msg_box{ width:94%; margin:0 auto;}
+.msg_box textarea{ width:100%; height:95px; border:1px solid #3173d2; box-shadow:0 1px 1px #5a9ccd; background-color:#daf6ff; color:#797979;-webkit-box-sizing:border-box; padding:13px 16px;}
+
+/*提交成功*/
+.cover_box{ width:100%; height:100%; background:rgba(0,18,58,0.8); position:fixed; top:0; left:0;}
+.pop_box{ width:72%; background:url(../images/pop_bg.png) no-repeat; -webkit-background-size:100% 100%; padding:4%; text-align:center; position:fixed; top:35%; left:10%;}
+.img_box{ width:26%; margin:0 auto;}
+.success{ color:#013d97; font-size:23px; margin-bottom:13px;}
+.time{ color:#003c96; font-style:italic;}
+
+/*获奖情况*/
+.prize_box{ background:url(../images/bg2.jpg) no-repeat;}
+.prize_body{ width:96%; margin:0 auto;}
+.prize_list{ border-radius:5px; padding-bottom:50px;}
+.prize_list table{ font-size:12px; table-layout:fixed;}
+.prize_list table tr th{ height:43px; background-color:#1456c7; color:#fff; border-right:1px solid #093c95;}
+.prize_list table tr td{ height:43px; background-color:#fffcc9; color:#1456c7; border-right:1px solid #093c95; border-bottom:1px solid #ffdfcc; padding:5px 0; line-height:14px; text-align:center;}
+.prize_list table .even td{ background-color:#c5f3ff;}
+.prize_btn{ width:94%; position:fixed; bottom:0; left:3%;}
+.prize_btn .btn{ height:45px; font-size:18px;}
+
+/*获奖情况（日历）*/
+.calendar_box{ width:100%; position:fixed; bottom:45px; background-color:#ebebe9; border-radius:5px;}
+.month_tit{ height:50px; line-height:50px; background:url(../images/tit_bg.png) no-repeat; -webkit-background-size:100% 100%; font-size:17px; font-weight:bold; color:#323232; text-align:center;}
+.month_list{ padding:4%;}
+.month_body{ border:1px solid #c1c1c1; background-color:#eeefef; border-radius:5px; box-shadow:0 0 1px 5px #e7e7e7 inset;}
+.month_body table tr td{ width:14%; height:35px; line-height:14px; text-align:center; color:#323232; font-size:13px; font-weight:bold; border-right:1px solid #c1c1c1; border-bottom:1px solid #c1c1c1;}
+.month_body table tr td.cur{ background:url(../images/td_bg.jpg) repeat-x; color:#fe0000;}
+table tr td:last-child,table tr th:last-child{ border-right:none;}
+table tr:last-child td{ border-bottom:none;}
+
+
+/*获奖结果中奖与失败*/
+.copyright{ width:100%; height:29px; line-height:29px; background-color:#015ed2; font-size:12px; color:#fff; text-align:center; position:fixed; bottom:0;}
